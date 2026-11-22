@@ -9,28 +9,28 @@ pygame.display.set_caption("SPACE ISOLATION")
 nametag = "> gnaa <"
 win = 'VICROTY !'
 font = pygame.font.Font(
-    "PAITON/fonts/Pixelate-Regular.ttf", 20)
+    "<file location>/Pixelate-Regular.ttf", 20)
 
 clock = pygame.time.Clock()
 
 halo = pygame.image.load(
-    "PAITON/asset/standart.png"
+    "<file location>/standart.png"
 ).convert_alpha()
 
 monsterX = pygame.image.load(
-    "PAITON/asset/MonsterX.png"
+    "<file location>/MonsterX.png"
 )
 
 
 
 monsterX = pygame.transform.scale(monsterX, (100, 100))
 bg = pygame.image.load(
-    "PAITON/asset/deck.png"
+    "<file location>/deck.png"
 ).convert_alpha()
 
 halo = pygame.transform.scale(halo, (50, 50))
 halo_fire = pygame.image.load (
-    "PAITON/asset/fire.png"
+    "<file location>/fire.png"
 )
 
 halo_fire = pygame.transform.scale(halo_fire, (50, 50))
@@ -39,7 +39,7 @@ bg = pygame.transform.scale(bg, (600, 300))
 player = halo
 
 fire = pygame.image.load(
-    "PAITON/asset/Ammo.png"
+    "<file location>/Ammo.png"
 ).convert_alpha()
 fire = pygame.transform.scale(fire, (96,94))
 YELLOW = (255, 230, 70)
